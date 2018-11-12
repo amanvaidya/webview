@@ -14,7 +14,7 @@ public class index extends AppCompatActivity {
         //mWebView = (WebView) findViewById(R.id.activity_main_webview);
         webView = (WebView) findViewById(R.id.activity_main_webview);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://callbiznow.in/");
+        webView.loadUrl("https://google.com/");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setPluginState(WebSettings.PluginState.ON);
