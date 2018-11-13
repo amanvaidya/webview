@@ -14,6 +14,7 @@ public class index extends AppCompatActivity {
         //mWebView = (WebView) findViewById(R.id.activity_main_webview);
         webView = (WebView) findViewById(R.id.activity_main_webview);
         webView.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://google.com/");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
